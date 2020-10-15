@@ -88,10 +88,6 @@ fn main() {
                 known_word_so_far[i] = *chr;
                 found = true;
             }
-
-            if i == secret_word.len() - 1 {
-                break;
-            }
         }
 
         if !found {
